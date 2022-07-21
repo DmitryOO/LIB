@@ -9,7 +9,7 @@ $.prototype.show = function() {
   }
 
   return this;
-}
+};
 
 $.prototype.hide = function() {
   for(let i=0; i<this.length; i++) {
@@ -20,7 +20,7 @@ $.prototype.hide = function() {
   }
 
   return this;
-}
+};
 
 $.prototype.toggle = function() {
   for(let i=0; i<this.length; i++) {
@@ -31,8 +31,8 @@ $.prototype.toggle = function() {
       this[i].style.display = 'none';
     } else {
       this[i].style.display = '';
-    };
+    }
   }
 
   return this;
-}
+};

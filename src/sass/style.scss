@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+button {
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.active {
+    font-size: 20px;
+    color: red;
+}
