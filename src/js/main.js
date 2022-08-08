@@ -8,4 +8,5 @@ $('div').click(function(){
 });
 // console.log($('div').eq(2).find('.more'));
 // console.log($('.some').closest('.findme'));
-console.log($('.findme').siblings());
+$('button').fadeIn(5000,);
+
