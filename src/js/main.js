@@ -19,3 +19,6 @@ $('[data-count="second"]').click(()=>{
 $('button').eq(2).on('click', ()=> {
   $('.w-500').fadeOut(800);
 });
+$('.btn-warning').click(()=>{
+  $('.w-500').fadeToggle(500);
+});
